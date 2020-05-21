@@ -1,0 +1,34 @@
+{
+  "name": "tableau-server-client",
+  "version": "0.1.0",
+  "description": "Node client to interact with the Tableau REST Api",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha --recursive",
+    "nyc": "nyc mocha --recursive",
+    "lint": "eslint lib/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mslosarek/tableau-server-client.git"
+  },
+  "keywords": [
+    "Tableau"
+  ],
+  "author": "Mark Slosarek <mark@slosarek.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mslosarek/tableau-server-client/issues"
+  },
+  "homepage": "https://github.com/mslosarek/tableau-server-client#readme",
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "chai": "^4.2.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-mocha": "^7.0.0",
+    "mocha": "^7.1.2",
+    "nyc": "^15.0.1"
+  }
+}
