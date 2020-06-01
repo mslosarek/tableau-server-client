@@ -3,6 +3,13 @@
   "version": "0.1.0",
   "description": "Node client to interact with the Tableau REST Api",
   "main": "lib/index.js",
+  "files": [
+    "package.json",
+    "package-lock.json",
+    "LICENSE",
+    "README.md",
+    "lib/*"
+  ],
   "scripts": {
     "test": "mocha --recursive",
     "nyc": "nyc mocha --recursive",
